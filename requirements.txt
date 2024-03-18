@@ -1,0 +1,7 @@
+cesnet-datazoo
+cesnet-models
+lightgbm
+scikit-learn
+matplotlib
+seaborn
+tqdm
