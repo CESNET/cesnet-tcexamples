@@ -13,6 +13,7 @@ The following notebooks are available:
 - `reproduce_tls.ipynb` - Use a pre-trained model from the `cesnet-models` package to reproduce the results of the *"Fine-grained TLS services classification with reject option"* paper.
 - `reproduce_quic.ipynb` - Use a pre-trained model from the `cesnet-models` package to reproduce the results of the *"Encrypted traffic classification: the QUIC case"* paper.
 - `example_train_nn.ipynb` - Training of a neural network from scratch. The `cesnet-datazoo` package provides a dataset, which is split into the train, validation, and test sets. The `cesnet-models` package provides the neural network architecture and data transformations.
+- `month_evaluation_cesnet_tls_year22.ipynb` - Training and per-month evaluation of a LightGBM model using the CESNET-TLS-Year22 dataset.
 
 ### Requirements
 The dependencies are installed in the first cell of each notebook. Alternatively, the `requirements.txt` file is also provided. PyTorch with CUDA 11.8 support should be installed with the following command (more info [here](https://pytorch.org/get-started/locally/)):
