@@ -19,5 +19,5 @@ The following notebooks are available:
 The dependencies are installed in the first cell of each notebook. Alternatively, the `requirements.txt` file is also provided. PyTorch with CUDA 11.8 support should be installed with the following command (more info [here](https://pytorch.org/get-started/locally/)):
 
 ```bash
-python -m pip install torch>=1.10 --index-url https://download.pytorch.org/whl/cu118
+python -m pip install torch>=1.10 --index-url https://download.pytorch.org/whl/cu124
 ```
